@@ -1,0 +1,80 @@
+.programs {
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* nice spacing between cards */
+    justify-content: center;
+  }
+  
+  .program {
+    width: 300px; /* fixed width */
+    height: 200px; /* fixed height */
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .program img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* image fills without distortion */
+    display: block;
+    border-radius: 10px;
+  }
+  
+  .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(15, 6, 6, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(102, 28, 28);
+    font-weight: bold;
+    font-size: 18px;
+    opacity: 0;
+    transition: 0.4s;
+    border-radius: 10px;
+    padding-top: 70%;
+    transition: 0.4s;
+  }
+  
+  .program:hover .caption {
+    opacity: 1;
+    padding-top: 0;
+  }
+  .programs {
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .program {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .program img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .caption {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0d0101;
+  }
+  

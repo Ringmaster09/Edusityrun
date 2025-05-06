@@ -1,0 +1,38 @@
+nav {
+  width: 100%;
+  color: white; /* Set text color to white for visibility */
+  padding: 3px 5px;
+  top: 0;
+  left: 0;
+  position: fixed; /* Absolute so it sits on top of the background */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  background: transparent; /* Make it transparent */
+}
+
+.logo {
+  width: 100px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 5px 20px;
+  font-size: 16px;
+}
+
+nav ul li a {
+  color: white; /* Important: white for contrast */
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+ .dark-nav{
+
+background: #212EA0;
+transition: 0.5s;
+ }
