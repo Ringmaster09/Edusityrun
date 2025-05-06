@@ -1,0 +1,21 @@
+.video-player {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it appears above other content */
+  }
+  
+  .video-player.hide {
+    display: none; /* Hide the video player when playState is false */
+  }
+  
+  video {
+    max-width: 90%;
+    max-height: 90%;
+  }
